@@ -1,42 +1,36 @@
 def create_an_empty_array
-  students = []
+  arr = []
+  return arr
 end
 
 def create_an_array
- students = ["wow", "I", "am", "arrays!"]
+ arr = [1,2,3,4]
 end
 
 def add_element_to_end_of_array(array, element)
-  students = ["wow", "I", "am", "arrays!"]
-  students.push(element)
+ array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  students = ["wow", "I", "am", "arrays!"]
-  students.unshift(element)
+ array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  students = ["wow", "I", "am", "arrays!"]
-  students.pop
+ array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  students = ["wow", "I", "am", "arrays!"]
-  students.shift
+ array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  students = ["wow", "I", "am", "arrays!"]
-  students[index_number]
+ return array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  students = ["wow", "I", "am", "arrays!"]
-  students.first
+ array.first
 end
 
 def retrieve_last_element_from_array(array)
-  students = ["wow", "I", "am", "arrays!"]
-  students.last
+ array.last
 end
